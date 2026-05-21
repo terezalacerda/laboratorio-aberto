@@ -1,0 +1,21 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com
+
+---
+
+Olá! Sou a Tereza, e este é meu laboratório aberto de estudos em ciência de dados e inteligência artificial.
+
+A ideia é documentar tudo que estou aprendendo — experimentos, erros e acertos — de forma aberta. Quem sabe ajuda quem também está começando :)

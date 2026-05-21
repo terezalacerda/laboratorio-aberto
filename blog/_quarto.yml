@@ -1,0 +1,16 @@
+project:
+  type: website
+
+website:
+  title: "Laboratório Aberto"
+  description: "Um blog de estudos em ciência de dados e IA"
+  navbar:
+    right:
+      - about.qmd
+format:
+  html:
+    theme: journal
+    css: styles.css
+
+
+

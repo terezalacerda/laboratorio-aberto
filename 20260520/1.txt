@@ -1,0 +1,24 @@
+Olá!
+
+Acabei de ter uma ideia de criar um blog para ir postando e documentando todos os meus estudos futuros envolvendo ciência de dados, estudo de IA e tudo mais. A ideia é ser um "laboratório" de experimentações aberto. E quem sabe, ajudar quem estiver começando (assim como eu) :)
+
+A motivação do projeto é justamente aprender a usar ferramentas de programação, aprender técnicas de modelagem, etc, etc. E tudo mais que vier na cabeça. Aprender na prática mesmo, e ir documentando tudo.
+
+Pra começar, acho que o primeiro passo é criar o blog haha, então já vamos começar documentando a criação do blog. Estou escrevendo isso em um bloco de notas por enquanto. 
+
+Bom, eu já tenho alguma experiência com a criação e manutenção de blogs usando a ferramenta Quarto (insira o link do quarto aqui). O quarto é uma ferramenta da posit (antiga RStudio) para criação de relatórios, sites, apresentações, artigos, etc. Acho que o "antepassado" do quarto é o próprio RMarkdown. Sim, eu usava muito o R (saudades, inclusive). Enfim, o Quarto é muito legal e quero usar ele, principalmente porque ele integra bem com várias linguagens: R (claramente), python, julia. Bom, esse projeto vai ser feito em python, pra variar, então isso já vai ser uma novidade pra mim também, já que o meu outro blog é todo em R. Vamos ver. 
+
+Esse é o quarto. bem simpático. A primeira coisa que vou fazer é escolher um template para o meu blog, indo ali em "Gallery". Depois, em "website".
+
+Na verdade, já errei, não é ai que estão os templates, e sim na própria documentação de "Websites" rsrs. nesse link: https://quarto.org/docs/output-formats/html-themes.html
+
+Provavelmente vou ficar um tempão pra escolher kkkkk gosto da estética. é legal que no link de cada template tem uma página mostrando os botões e estética de praticamente todos os elementos do template.
+
+Certo, vamos de jornal, pq eu gosto da ideia de estar escrevendo em um papel kkkk, enfim.
+
+Escolhido o tema, vamos criar o blog. Acho que vou precisar instalar algumas coisas antes, vamos ver.
+
+Aliás, vou começar a testar o claude desde já, vamos ver se ele consegue fazer toda a instalação e criação do blog pra mim.
+
+Certo, já estou com o claude instalado, então não vou colocar esse passo aqui. Também estou com a versão paga. Agora vou abrir meu terminal, mudar o caminho para a pasta do meu projeto que eu criei, e chamar o claude. Agora vou dar um init e provavelmente ele vai pegar todo o contexto do projeto pq esse bloco de notas está dentro da pasta. Vamos ver.
+

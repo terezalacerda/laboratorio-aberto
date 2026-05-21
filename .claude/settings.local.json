@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(quarto create *)",
+      "PowerShell(pip install *)"
+    ]
+  }
+}
