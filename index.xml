@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Laboratório Aberto</title>
+<link>https://terezalacerda.github.io/laboratorio-aberto/</link>
+<atom:link href="https://terezalacerda.github.io/laboratorio-aberto/index.xml" rel="self" type="application/rss+xml"/>
+<description>Um blog de estudos em ciência de dados e IA</description>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Wed, 20 May 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Como criei este blog (com um pouquinho de ajuda)</title>
+  <link>https://terezalacerda.github.io/laboratorio-aberto/posts/criando-o-blog/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Olá!</p>
+<p>Acabei de ter uma ideia: criar um blog para documentar todos os meus estudos futuros envolvendo ciência de dados, IA e tudo mais que vier na cabeça. A ideia é que seja um <strong>laboratório aberto de experimentações</strong> — aprender na prática e documentar tudo. E quem sabe, ajudar quem também está começando :)</p>
+<p>Então nada mais justo do que o primeiro post documentar… a criação do próprio blog. Vamos lá.</p>
+<section id="por-que-o-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="por-que-o-quarto">Por que o Quarto?</h2>
+<p>Eu já tenho alguma experiência com blogs usando o <a href="https://quarto.org/">Quarto</a> — uma ferramenta da Posit (antiga RStudio) para criar relatórios, sites, apresentações, artigos, etc. O “antepassado” dele é o próprio RMarkdown. Sim, eu usava muito R (saudades, inclusive).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://terezalacerda.github.io/laboratorio-aberto/posts/criando-o-blog/quarto-home.png" class="img-fluid figure-img"></p>
+<figcaption>Página inicial do Quarto</figcaption>
+</figure>
+</div>
+<p>O Quarto é muito legal, principalmente porque integra bem com várias linguagens: R, Python, Julia. Como esse projeto vai ser feito em <strong>Python</strong> — para variar e aprender coisas novas — ele encaixou perfeitamente. Meu outro blog é todo em R, então Python já é uma novidade por si só. Vamos ver no que dá.</p>
+</section>
+<section id="escolhendo-o-tema" class="level2">
+<h2 class="anchored" data-anchor-id="escolhendo-o-tema">Escolhendo o tema</h2>
+<p>A parte mais difícil: escolher a estética. Eu <em>gosto muito</em> de estética kkkkk.</p>
+<p>O Quarto tem suporte a temas do <a href="https://quarto.org/docs/output-formats/html-themes.html">Bootswatch</a>, e cada tema tem uma página de preview mostrando botões, tipografia, cores — praticamente todos os elementos. Ótimo para quem é visual como eu.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://terezalacerda.github.io/laboratorio-aberto/posts/criando-o-blog/quarto-themes.png" class="img-fluid figure-img"></p>
+<figcaption>Página de temas HTML do Quarto</figcaption>
+</figure>
+</div>
+<p>Depois de um bom tempo olhando (não vou mentir), escolhi o <strong>Journal</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://terezalacerda.github.io/laboratorio-aberto/posts/criando-o-blog/tema-journal.png" class="img-fluid figure-img"></p>
+<figcaption>Tema Journal no Bootswatch — “Crisp like a new sheet of paper”</figcaption>
+</figure>
+</div>
+<p>“Crisp like a new sheet of paper.” — vendi. Gosto da ideia de estar escrevendo em papel. E o header em salmon ficou lindo.</p>
+</section>
+<section id="a-instalação-onde-o-claude-code-entrou" class="level2">
+<h2 class="anchored" data-anchor-id="a-instalação-onde-o-claude-code-entrou">A instalação — onde o Claude Code entrou</h2>
+<p>Com o tema escolhido, era hora de instalar as ferramentas e criar o blog de fato. Foi aí que resolvi testar o <strong>Claude Code</strong> — a CLI da Anthropic que roda direto no terminal — para ver se ele conseguiria fazer todo o setup por mim.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://terezalacerda.github.io/laboratorio-aberto/posts/criando-o-blog/claude-terminal.png" class="img-fluid figure-img"></p>
+<figcaption>Terminal com o Claude Code rodando na pasta do projeto</figcaption>
+</figure>
+</div>
+<p>Spoiler: ele fez tudo mesmo kkkkkk</p>
+<p>Em uma sessão, o Claude:</p>
+<ul>
+<li>Verificou o que já estava instalado (Python 3.14 ✓, Quarto ✗, VS Code ✗)</li>
+<li>Instalou o <strong>Quarto 1.9.37</strong> e o <strong>VS Code</strong> via <code>winget</code></li>
+<li>Instalou as extensões <code>quarto.quarto</code> e <code>ms-python.python</code> no VS Code</li>
+<li>Instalou o <strong>Jupyter</strong> (necessário para rodar Python nos posts)</li>
+<li>Criou o projeto do blog com <code>quarto create project blog</code></li>
+<li>Configurou o tema Journal no <code>_quarto.yml</code></li>
+<li>Rodou o <code>quarto preview</code> para confirmar que tudo funcionava</li>
+</ul>
+<p>Tudo isso com eu descrevendo o que queria em linguagem natural, sem precisar ficar pesquisando comandos. Achei bem impressionante — e pretendo usar bastante ao longo do projeto, documentando o que funciona e o que não funciona.</p>
+</section>
+<section id="github" class="level2">
+<h2 class="anchored" data-anchor-id="github">GitHub</h2>
+<p>Antes de encerrar o dia, conectei o projeto a um repositório no GitHub:</p>
+<p>👉 <a href="https://github.com/terezalacerda/laboratorio-aberto">github.com/terezalacerda/laboratorio-aberto</a></p>
+<p>Também via Claude Code — ele criou o repo, configurou o <code>.gitignore</code> e fez o primeiro push. Levou menos de um minuto.</p>
+</section>
+<section id="e-agora" class="level2">
+<h2 class="anchored" data-anchor-id="e-agora">E agora?</h2>
+<p>A ideia é ir postando à medida que for estudando e experimentando. Sem compromisso de frequência, sem pressão. Só documentar o que estiver fazendo.</p>
+<p>Se você também está começando e achou isso útil — ou se tiver dicas — fico feliz em saber :)</p>
+<p>Até o próximo!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>meta</category>
+  <category>quarto</category>
+  <category>ferramentas</category>
+  <guid>https://terezalacerda.github.io/laboratorio-aberto/posts/criando-o-blog/</guid>
+  <pubDate>Wed, 20 May 2026 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://terezalacerda.github.io/laboratorio-aberto/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://terezalacerda.github.io/laboratorio-aberto/posts/post-with-code/</guid>
+  <pubDate>Wed, 20 May 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://terezalacerda.github.io/laboratorio-aberto/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://terezalacerda.github.io/laboratorio-aberto/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://terezalacerda.github.io/laboratorio-aberto/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://terezalacerda.github.io/laboratorio-aberto/posts/welcome/</guid>
+  <pubDate>Sun, 17 May 2026 03:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

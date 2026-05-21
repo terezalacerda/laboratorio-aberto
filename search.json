@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/criando-o-blog/index.html",
+    "href": "posts/criando-o-blog/index.html",
+    "title": "Como criei este blog (com um pouquinho de ajuda)",
+    "section": "",
+    "text": "Olá!\nAcabei de ter uma ideia: criar um blog para documentar todos os meus estudos futuros envolvendo ciência de dados, IA e tudo mais que vier na cabeça. A ideia é que seja um laboratório aberto de experimentações — aprender na prática e documentar tudo. E quem sabe, ajudar quem também está começando :)\nEntão nada mais justo do que o primeiro post documentar… a criação do próprio blog. Vamos lá."
+  },
+  {
+    "objectID": "posts/criando-o-blog/index.html#por-que-o-quarto",
+    "href": "posts/criando-o-blog/index.html#por-que-o-quarto",
+    "title": "Como criei este blog (com um pouquinho de ajuda)",
+    "section": "Por que o Quarto?",
+    "text": "Por que o Quarto?\nEu já tenho alguma experiência com blogs usando o Quarto — uma ferramenta da Posit (antiga RStudio) para criar relatórios, sites, apresentações, artigos, etc. O “antepassado” dele é o próprio RMarkdown. Sim, eu usava muito R (saudades, inclusive).\n\n\n\nPágina inicial do Quarto\n\n\nO Quarto é muito legal, principalmente porque integra bem com várias linguagens: R, Python, Julia. Como esse projeto vai ser feito em Python — para variar e aprender coisas novas — ele encaixou perfeitamente. Meu outro blog é todo em R, então Python já é uma novidade por si só. Vamos ver no que dá."
+  },
+  {
+    "objectID": "posts/criando-o-blog/index.html#escolhendo-o-tema",
+    "href": "posts/criando-o-blog/index.html#escolhendo-o-tema",
+    "title": "Como criei este blog (com um pouquinho de ajuda)",
+    "section": "Escolhendo o tema",
+    "text": "Escolhendo o tema\nA parte mais difícil: escolher a estética. Eu gosto muito de estética kkkkk.\nO Quarto tem suporte a temas do Bootswatch, e cada tema tem uma página de preview mostrando botões, tipografia, cores — praticamente todos os elementos. Ótimo para quem é visual como eu.\n\n\n\nPágina de temas HTML do Quarto\n\n\nDepois de um bom tempo olhando (não vou mentir), escolhi o Journal.\n\n\n\nTema Journal no Bootswatch — “Crisp like a new sheet of paper”\n\n\n“Crisp like a new sheet of paper.” — vendi. Gosto da ideia de estar escrevendo em papel. E o header em salmon ficou lindo."
+  },
+  {
+    "objectID": "posts/criando-o-blog/index.html#a-instalação-onde-o-claude-code-entrou",
+    "href": "posts/criando-o-blog/index.html#a-instalação-onde-o-claude-code-entrou",
+    "title": "Como criei este blog (com um pouquinho de ajuda)",
+    "section": "A instalação — onde o Claude Code entrou",
+    "text": "A instalação — onde o Claude Code entrou\nCom o tema escolhido, era hora de instalar as ferramentas e criar o blog de fato. Foi aí que resolvi testar o Claude Code — a CLI da Anthropic que roda direto no terminal — para ver se ele conseguiria fazer todo o setup por mim.\n\n\n\nTerminal com o Claude Code rodando na pasta do projeto\n\n\nSpoiler: ele fez tudo mesmo kkkkkk\nEm uma sessão, o Claude:\n\nVerificou o que já estava instalado (Python 3.14 ✓, Quarto ✗, VS Code ✗)\nInstalou o Quarto 1.9.37 e o VS Code via winget\nInstalou as extensões quarto.quarto e ms-python.python no VS Code\nInstalou o Jupyter (necessário para rodar Python nos posts)\nCriou o projeto do blog com quarto create project blog\nConfigurou o tema Journal no _quarto.yml\nRodou o quarto preview para confirmar que tudo funcionava\n\nTudo isso com eu descrevendo o que queria em linguagem natural, sem precisar ficar pesquisando comandos. Achei bem impressionante — e pretendo usar bastante ao longo do projeto, documentando o que funciona e o que não funciona."
+  },
+  {
+    "objectID": "posts/criando-o-blog/index.html#github",
+    "href": "posts/criando-o-blog/index.html#github",
+    "title": "Como criei este blog (com um pouquinho de ajuda)",
+    "section": "GitHub",
+    "text": "GitHub\nAntes de encerrar o dia, conectei o projeto a um repositório no GitHub:\n👉 github.com/terezalacerda/laboratorio-aberto\nTambém via Claude Code — ele criou o repo, configurou o .gitignore e fez o primeiro push. Levou menos de um minuto."
+  },
+  {
+    "objectID": "posts/criando-o-blog/index.html#e-agora",
+    "href": "posts/criando-o-blog/index.html#e-agora",
+    "title": "Como criei este blog (com um pouquinho de ajuda)",
+    "section": "E agora?",
+    "text": "E agora?\nA ideia é ir postando à medida que for estudando e experimentando. Sem compromisso de frequência, sem pressão. Só documentar o que estiver fazendo.\nSe você também está começando e achou isso útil — ou se tiver dicas — fico feliz em saber :)\nAté o próximo!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Olá! Sou a Tereza, e este é meu laboratório aberto de estudos em ciência de dados e inteligência artificial.\nA ideia é documentar tudo que estou aprendendo — experimentos, erros e acertos — de forma aberta. Quem sabe ajuda quem também está começando :)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Laboratório Aberto",
+    "section": "",
+    "text": "Como criei este blog (com um pouquinho de ajuda)\n\n\n\nmeta\n\nquarto\n\nferramentas\n\n\n\nO primeiro post documenta justamente o processo de criar o blog. Faz sentido, né?\n\n\n\n\n\nMay 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMay 20, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 17, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  }
+]
