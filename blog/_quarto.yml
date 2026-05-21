@@ -4,6 +4,7 @@ project:
 website:
   title: "Laboratório Aberto"
   description: "Um blog de estudos em ciência de dados e IA"
+  site-url: "https://terezalacerda.github.io/laboratorio-aberto"
   navbar:
     right:
       - about.qmd
